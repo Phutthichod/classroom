@@ -1,0 +1,48 @@
+body{
+    background-color: red;
+}
+.content{
+    display: grid;
+    grid-template:
+    "head head" auto
+    "nav main"  auto
+    / 100px auto 
+    ;
+  }
+  
+.content > div {
+    text-align: center;
+    padding: 20px 0;
+    
+  }
+
+.head{
+   
+    background:green;
+    grid-area: head;
+}
+.headTitle{
+    margin: 0px 50px 0px 50px;
+}
+.nav{
+    
+    background:black;
+    grid-area: nav;
+}
+.main{
+    height: 100vh auto;
+    grid-area: main;
+}
+.footer{
+    margin: 0px;
+    height: 50px;
+    background:blue;
+}
+.form-group{
+    margin:  0px 50px 25px 50px;
+}
+label{
+    font-size: 25px;
+    font-style: inherit;
+}
+
